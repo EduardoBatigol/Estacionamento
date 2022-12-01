@@ -9,7 +9,7 @@ package model.bean;
  * @author 03044671035
  */
 public class Vaga {
-    private int idVaga;
+    private int idVaga ;
     private int numero;
     private String rua;
     private boolean obliqua;

@@ -207,7 +207,7 @@ public class JFAtualizarVaga extends javax.swing.JFrame {
             public void run() {
                 JFAtualizarVaga frame = new JFAtualizarVaga(idVaga);
                 frame.setVisible(true);
-            }
+             }
         });
     }
 

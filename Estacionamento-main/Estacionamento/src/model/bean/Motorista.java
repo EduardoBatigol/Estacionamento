@@ -8,7 +8,7 @@ public class Motorista {
     private int cpf;
     private int numero;
     private String email;
-    private String senha;
+    private String senha ;
 
     public int getIdMotorista() {
         return idMotorista;
