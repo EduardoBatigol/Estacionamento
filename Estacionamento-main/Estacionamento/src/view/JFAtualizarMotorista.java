@@ -61,7 +61,8 @@ public class JFAtualizarMotorista extends javax.swing.JFrame {
         lblIdMotorista = new javax.swing.JLabel();
         jBTSalvar = new javax.swing.JToggleButton();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
+        setTitle("Atualizar Motorista");
 
         jLabel1.setFont(new java.awt.Font("Bahnschrift", 1, 24)); // NOI18N
         jLabel1.setText("Atualizar Motorista");

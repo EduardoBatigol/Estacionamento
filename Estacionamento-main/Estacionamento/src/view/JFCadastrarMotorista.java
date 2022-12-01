@@ -47,7 +47,8 @@ public class JFCadastrarMotorista extends javax.swing.JFrame {
         jBTCancelar = new javax.swing.JButton();
         jBTCadastrar = new javax.swing.JButton();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
+        setTitle("Cadastrar Motorista");
 
         jLabel1.setFont(new java.awt.Font("Bahnschrift", 1, 24)); // NOI18N
         jLabel1.setText("Cadastrar Motorista");
@@ -177,7 +178,7 @@ public class JFCadastrarMotorista extends javax.swing.JFrame {
     }//GEN-LAST:event_jTFNomeActionPerformed
 
     private void jBTCancelarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBTCancelarActionPerformed
-        // TODO add your handling code here:
+      dispose();
     }//GEN-LAST:event_jBTCancelarActionPerformed
 
     private void jBTCadastrarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBTCadastrarActionPerformed
